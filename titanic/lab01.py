@@ -10,9 +10,9 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 
-train_data = pd.read_csv("./train.csv")
-test_data = pd.read_csv("./test.csv")
-subm_data = pd.read_csv("./submission.csv")
+train_data = pd.read_csv("./titanic/train.csv")
+test_data = pd.read_csv("./titanic/test.csv")
+subm_data = pd.read_csv("./titanic/submission.csv")
 
 y_train = train_data["Survived"]
 y_test = subm_data["Survived"]
